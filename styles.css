@@ -1,0 +1,182 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4 {
+    color: #2c3e50;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #3498db;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Home Section (Full Screen) */
+#home {
+    height: 100vh; /* Full screen height */
+    background-image: url('gt.jpg'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#home h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #FF8000;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/* Tour Packages Section */
+#tour-packages {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+#tour-packages h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.category {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.package {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.package:hover {
+    transform: scale(1.05);
+}
+
+.package-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.package h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.package p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.details {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.details span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.itinerary {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.itinerary h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.itinerary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.itinerary ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Contact Us Section */
+#contact-us {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2c3e50;
+    color: white;
+}
